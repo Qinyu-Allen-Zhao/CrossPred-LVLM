@@ -63,25 +63,25 @@ Usually, a GPU with 24GB memory should be enough for running 7B models. Larger m
 
 #### Arguments Explanation for  `evaluate_lvlm.py` 
 
-- **`--model_name`**: Specifies the name of the model to be evaluated. Default: `"LLaVA-13B"`  
+- `--model_name`: Specifies the name of the model to be evaluated. Default: `"LLaVA-13B"`  
 
-- **`--model_path`**: Specifies the path or name of the model checkpoint. Default: `"liuhaotian/llava-v1.5-13b"`
+- `--model_path`: Specifies the path or name of the model checkpoint. Default: `"liuhaotian/llava-v1.5-13b"`
 
-- **`--num_samples`**: An optional argument to set the number of samples to process. If you set the number of samples, the dataset will be subsampled. Default: `None` (processes all available samples if not provided).
+- `--num_samples`: An optional argument to set the number of samples to process. If you set the number of samples, the dataset will be subsampled. Default: `None` (processes all available samples if not provided).
 
-- **`--dataset`**: Specifies the dataset used for evaluation. Default: `"SEED_2"`
+- `--dataset`: Specifies the dataset used for evaluation. Default: `"SEED_2"`
 
-- **`--store_path`**: Specifies the directory where the model's outputs will be saved. Default: `"./output/LLaVA-13B/SEED_2/"`
+- `--store_path`: Specifies the directory where the model's outputs will be saved. Default: `"./output/LLaVA-13B/SEED_2/"`
 
-- **`--num_chunks`**: Sets the number of chunks into which the dataset will be split for processing. Used for multiple-gpu settings. Default: `1`
+- `--num_chunks`: Sets the number of chunks into which the dataset will be split for processing. Used for multiple-gpu settings. Default: `1`
 
-- **`--chunk_idx`**: Specifies which chunk to process (useful for parallel processing). Used for multiple-gpu settings. Default: `0`
+- `--chunk_idx`: Specifies which chunk to process (useful for parallel processing). Used for multiple-gpu settings. Default: `0`
 
-- **`--temperature`**: Defines the sampling temperature, which controls the randomness in predictions. Default: `0.0`
+- `--temperature`: Defines the sampling temperature, which controls the randomness in predictions. Default: `0.0`
 
-- **`--only_ans`**: A flag (`store_true`). If provided, only the final answers will be returned. Otherwise, the logits and hidden states will be stored, which may lead to large memory usage.
+- `--only_ans`: A flag (`store_true`). If provided, only the final answers will be returned. Otherwise, the logits and hidden states will be stored, which may lead to large memory usage.
 
-- **`--num_beams`**: Controls the number of beams for beam search (a technique for generating multiple candidate outputs). Default: `1`
+- `--num_beams`: Controls the number of beams for beam search (a technique for generating multiple candidate outputs). Default: `1`
 
 
 #### 2. Build PMF or PTF models
@@ -91,19 +91,19 @@ We also provide the experiment scripts of our study in ```scripts/run_pmf.sh``` 
 
 #### Argument Explanations for ```run_pmf.py```
 
-- **`--random_seed`**: Sets the random seed for reproducibility in the experiment. We find this is not enough to control the MCMC sampling. Tthe results with the same random seed are very close but not exactly the same. Default: `81021` (Anniversary date with my wife)
+- `--random_seed`: Sets the random seed for reproducibility in the experiment. We find this is not enough to control the MCMC sampling. Tthe results with the same random seed are very close but not exactly the same. Default: `81021` (Anniversary date with my wife)
 
-- **`--dim`**: Defines latent dimension used in the model. Default: `10`
+- `--dim`: Defines latent dimension used in the model. Default: `10`
 
-- **`--alpha`**: Specifies the precision parameter. Default: `2`
+- `--alpha`: Specifies the precision parameter. Default: `2`
 
-- **`--std`**: Sets the standard deviation. Default: `0.05`
+- `--std`: Sets the standard deviation. Default: `0.05`
 
-- **`--draws`**: Specifies the number of MCMC draws for the sampling process. Default: `100`
+- `--draws`: Specifies the number of MCMC draws for the sampling process. Default: `100`
 
-- **`--subset`**: Indicates a subset of metrics to be used during evaluation. Default: `None`
+- `--subset`: Indicates a subset of metrics to be used during evaluation. Default: `None`
 
-- **`--percent_test`**: Specifies the percentage of the dataset to be reserved for testing. Default: `20` (%)
+- `--percent_test`: Specifies the percentage of the dataset to be reserved for testing. Default: `20` (%)
 
 
 #### 3. Additional Experiments
