@@ -74,7 +74,7 @@ def main(args):
     
     get_model_output(args, chunk_idx, data, extra_keys)
     
-    # eval_model_output(args, chunk_idx, data)
+    eval_model_output(args, chunk_idx, data)
 
 
 if __name__ == "__main__":
