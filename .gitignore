@@ -1,0 +1,6 @@
+ckpts/
+output/
+backup/
+figs/
+*/__pycache__/
+__pycache__/

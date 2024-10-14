@@ -1,0 +1,1743 @@
+{
+    "BLIP2-opt-2.7B": {
+        "num_params_llm": 2.7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "BLIP2-flan-t5-xxl": {
+        "num_params_llm": 11,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "BLIP2-opt-6.7b-coco": {
+        "num_params_llm": 6.7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "BLIP2-opt-6.7b": {
+        "num_params_llm": 6.7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "BLIP2-flan-t5-xl": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "InstructBLIP-Vicuna-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "InstructBLIP-Vicuna-13B": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "InstructBLIP-flan-t5-xl": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "InstructBLIP-flan-t5-xxl": {
+        "num_params_llm": 11,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "BLIP",
+        "gt_cluster": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "MiniGPT4-LLaMA2-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "MiniGPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "MiniGPT4-Vicuna0-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "MiniGPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "MiniGPT4-Vicuna0-13B": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "MiniGPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "mPLUG-Owl2-LLaMA2-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "MiniGPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "mPLUG-Owl2_1": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "mPLUG-Owl",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-13B": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-v1.6-Vicuna-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-v1.6-Vicuna-13B": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-v1.6-Mistral-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "LLaVA-v1.6-34B": {
+        "num_params_llm": 34,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaVA",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "Cambrian-Phi3-3B": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "SigLIP",
+            "ConvNeXt",
+            "DINOv2"
+        ],
+        "model_family": "Cambrian",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "Cambrian-8B": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "SigLIP",
+            "ConvNeXt",
+            "DINOv2"
+        ],
+        "model_family": "Cambrian",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "Cambrian-13B": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "SigLIP",
+            "ConvNeXt",
+            "DINOv2"
+        ],
+        "model_family": "Cambrian",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "Cambrian-34B": {
+        "num_params_llm": 34,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "SigLIP",
+            "ConvNeXt",
+            "DINOv2"
+        ],
+        "model_family": "Cambrian",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "Fuyu-8B": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [],
+        "model_family": "Fuyu",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "LLaMA-Adapter-V2-BIAS-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaMA-Adapter",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "LLaMA-Adapter-V2-LORA-BIAS-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaMA-Adapter",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "LLaMA-Adapter-V2-LORA-BIAS-7B-v21": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "LLaMA-Adapter",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "OpenFlamingo-3B-vitl-mpt1b": {
+        "num_params_llm": 1,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "NFNet"
+        ],
+        "model_family": "OpenFlamingo",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "OpenFlamingo-3B-vitl-mpt1b-langinstruct": {
+        "num_params_llm": 1,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "NFNet"
+        ],
+        "model_family": "OpenFlamingo",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "OpenFlamingo-4B-vitl-rpj3b": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "NFNet"
+        ],
+        "model_family": "OpenFlamingo",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "OpenFlamingo-4B-vitl-rpj3b-langinstruct": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "NFNet"
+        ],
+        "model_family": "OpenFlamingo",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "OpenFlamingo-9B-vitl-mpt7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "NFNet"
+        ],
+        "model_family": "OpenFlamingo",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "Qwen-VL-Chat": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "Qwen",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ]
+    },
+    "InternLM-XComposer-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "InternLM",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "InternLM-XComposer-vl-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "InternLM",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "InternLM-XComposer2-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "InternLM",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "InternLM-XComposer2-vl-1_8b": {
+        "num_params_llm": 1.8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "InternLM",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "InternLM-XComposer2-vl-7B": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "InternLM",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gpt-4o-2024-05-13": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "GPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gpt-4o-2024-08-06": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "GPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gpt-4o-mini-2024-07-18": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "GPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gpt-4-turbo-2024-04-09": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "GPT4",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gemini-1.5-pro": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "Gemini",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "gemini-1.5-flash": {
+        "num_params_llm": null,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": null,
+        "model_family": "Gemini",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "reproduction-llava-v15+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "reproduction-llava-v15+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "one-stage+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "one-stage+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "full-ft-multi-stage+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "full-ft-one-stage+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "in1k-224px+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "ViT"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "dinov2-224px+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "clip-224px+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "siglip-224px+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "clip-336px-resize-crop+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "clip-336px-resize-naive+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "siglip-384px-letterbox+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "siglip-384px-resize-crop+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "siglip-384px-resize-naive+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "dinoclip-336px-letterbox+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "dinoclip-336px-resize-naive+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "dinosiglip-384px-letterbox+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "dinosiglip-384px-resize-naive+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "llama2+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "llama2+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "vicuna-no-cotraining+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama2-no-cotraining+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "train-1.25-epochs+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "train-1.5-epochs+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "train-2-epochs+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "train-3-epochs+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llava-lvis4v+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llava-lrv+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llava-lvis4v-lrv+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-clip-controlled+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-clip-controlled+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-clip+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-clip+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-siglip-controlled+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-siglip-controlled+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-siglip+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-siglip+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip-controlled+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip-controlled+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip-224px-controlled+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "prism-dinosiglip-224px+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama2-chat+13b": {
+        "num_params_llm": 13,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0
+        ]
+    },
+    "mistral-v0.1+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "mistral-instruct-v0.1+7b": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+        ]
+    },
+    "phi-2+3b": {
+        "num_params_llm": 3,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+2b+clip": {
+        "num_params_llm": 2,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+2b+siglip": {
+        "num_params_llm": 2,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+2b+dinosiglip": {
+        "num_params_llm": 2,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+8b+clip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+8b+siglip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "gemma-instruct+8b+dinosiglip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama2-chat+7b+clip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama2-chat+7b+siglip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama2-chat+7b+dinosiglip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama3-instruct+8b+clip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama3-instruct+8b+siglip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "llama3-instruct+8b+dinosiglip": {
+        "num_params_llm": 8,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "mistral-instruct-v0.2+7b+clip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "CLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "mistral-instruct-v0.2+7b+siglip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    },
+    "mistral-instruct-v0.2+7b+dinosiglip": {
+        "num_params_llm": 7,
+        "num_layers_llm": null,
+        "hidden_size": null,
+        "vision_encoder": [
+            "SigLIP",
+            "DINOv2"
+        ],
+        "model_family": "prism",
+        "gt_cluster": [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+        ]
+    }
+}
