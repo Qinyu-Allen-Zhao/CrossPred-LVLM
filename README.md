@@ -2,7 +2,7 @@
 
 This repository contains the source code for the paper.
 
-**Can We Predict Performance of Large Models across Vision-Language Tasks?** [[ArXiv]()]
+**Can We Predict Performance of Large Models across Vision-Language Tasks?** [[ArXiv](https://arxiv.org/abs/2410.10112)]
 
 Qinyu Zhao $^1$, Ming Xu $^1$, Kartik Gupta $^2$, Akshay Asthana $^2$, Liang Zheng $^1$, Stephen Gould $^1$
 
